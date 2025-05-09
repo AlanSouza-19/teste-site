@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+}
+
+div#teste-capa {
+    background-image: url('../images/capa-back.png');
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    background-color: darkgreen;
+}
+
+div#teste-capa h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 50px;
+}
+
+div#teste-capa h2 {
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat';
+}

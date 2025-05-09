@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 
 header {
@@ -65,9 +65,9 @@ header nav#nav-esq ul#menu-principal li a:hover {
 
 div#capa {
     background-image: url('../images/capa-back.png');
-    background-size: contain;
+    background-size: cover;
     width: 100%;
-    height: 600px;
+    height: 80vh;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -75,6 +75,7 @@ div#capa {
 }
 
 div#capa h1 {
+    text-align: center;
     font-family: "Montserrat", sans-serif;
     font-weight: 800;
     font-size: 50px;
@@ -82,6 +83,7 @@ div#capa h1 {
 }
 
 div#capa h2 {
+    text-align: center;
     padding-top: 20px;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
