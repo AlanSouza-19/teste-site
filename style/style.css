@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+}
+
+header nav#nav-esq {
+    width: 100%;
+    height: 60px;
+    /*background-color: #990505;*/
+
+    display: flex;
+    flex-flow: row;
+    align-items: center;;
+}
+
+header nav#nav-esq div#logo {
+    width: 100px;
+    height: 60px;
+    margin-left: 20%;
+    /*background-color: aqua;*/
+}
+
+header nav#nav-esq div#logo img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+header nav#nav-esq ul#menu-principal {
+    width: 100%;
+    height: 100%;
+    align-items: end;
+    justify-content: right;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    /*background-color: blue;*/
+    
+}
+
+header nav#nav-esq ul#menu-principal li {
+    list-style: none;
+    margin-right: 2rem;
+}
+
+header nav#nav-esq ul#menu-principal li a {
+    text-decoration: none;
+    color: black;
+    font-size: 100%;
+    padding-bottom: 10px;
+    transition: .3s ease-out;
+}
+
+header nav#nav-esq ul#menu-principal li a:hover {
+    border-bottom: 1px solid #FFF;
+    opacity: .6;
+
+}
+
+div#capa {
+    background-image: url('../images/capa-back.png');
+    background-size: contain;
+    width: 100%;
+    height: 600px;
+    background-color: darkgreen;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div#capa h1 {
+    color: #FFF;
+}
+
+div#capa h2 {
+    color: #FFF;
+}
+
+div#secao-dois {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div#secao-dois-colunas {
+    height: 300px;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+div#secao-dois-colunas div {
+    flex: 1;
+}
+
+#secao-dois-colunas div:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#secao-dois-colunas div:last-child h2 {
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+
+#secao-dois-colunas div:last-child p {
+    padding-bottom: 80px;
+}
+
+#secao-dois-colunas div:last-child div {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+#secao-dois-colunas div:last-child div button {
+    width: 60%;
+    height: 30px;
+    border-radius: 0;
+    border-width: 1px;
+    background-color: #063326;
+    color: #FFF;
+    position: relative;
+}
+
+div#secao-dois-colunas img {
+    max-height: 300px;
+}
+
