@@ -1,5 +1,45 @@
+@media (max-width: 768px) {
+    header nav#nav-esq {
+        flex-direction: column;
+        height: auto;
+    }
+    header nav#nav-esq div#logo {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+    header nav#nav-esq ul#menu-principal {
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+    header nav#nav-esq ul#menu-principal li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    div#capa {
+        height: 60vh;
+        padding: 20px;
+    }
+    div#capa h1 {
+        font-size: 32px;
+    }
+    div#capa h2 {
+        font-size: 18px;
+    }
+    div#secao-dois-colunas {
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+    }
+    #secao-dois-colunas div:last-child h2 {
+        font-size: 28px;
+    }
+}
+
 @media (max-width: 375px) {
     div#capa h1 {
-        font-size: 20px;
+        font-size: 24px;
     }
 }
